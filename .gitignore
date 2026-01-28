@@ -1,0 +1,46 @@
+﻿# Environment Variables (CRÍTICO!)
+.env
+.env.local
+.env.production
+.env.*.local
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+user_management.db
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+Scripts/
+Lib/
+Include/
+pyvenv.cfg
+
+# Python
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.Python
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Tests
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# Distribution
+dist/
+build/
+*.egg-info/
